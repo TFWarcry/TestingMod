@@ -1,6 +1,8 @@
 package net.tfwarcry.testingmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.item.Item;
+import net.tfwarcry.testingmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +13,10 @@ public class TestingMod implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
+
 	@Override
 	public void onInitialize() {
+
+		ModItems.registerModItems();
 	}
 }
