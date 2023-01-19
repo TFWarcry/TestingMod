@@ -1,9 +1,10 @@
 package net.tfwarcry.testingmod;
 
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.item.Item;
 import net.tfwarcry.testingmod.block.ModBlocks;
 import net.tfwarcry.testingmod.item.ModItems;
+import net.tfwarcry.testingmod.world.feature.ModConfiguredFeatures;
+import net.tfwarcry.testingmod.world.gen.ModOreGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,8 +18,12 @@ public class TestingMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModConfiguredFeatures.registerConfiguredFeatures();
+
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModOreGeneration.generateOres();
 	}
 }
