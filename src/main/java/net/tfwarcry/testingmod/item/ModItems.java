@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.tfwarcry.testingmod.TestingMod;
 import net.tfwarcry.testingmod.item.custom.EightBallItem;
+import net.tfwarcry.testingmod.item.custom.SmitingSwordItem;
 
 public class ModItems {
     public static final Item RAW_TANZANITE = registerItem("raw_tanzanite",
@@ -18,7 +19,10 @@ public class ModItems {
         public static final Item TANZANITE_PICKAXE =  registerItem("tanzanite_pickaxe", new PickaxeItem(ModToolMaterial.TANZANITE, 7, 2f,
                 new FabricItemSettings().group(ModItemGroup.TANZANITE).maxCount(1)));
 
-        public static final Item EIGHT_BALL = registerItem("eight_ball", new EightBallItem(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+        public static final Item EIGHT_BALL = registerItem("eight_ball",
+                new EightBallItem(new FabricItemSettings().group(ModItemGroup.TANZANITE).maxCount(1)));
+        public static final Item SMITING_SWORD = registerItem("smiting_sword",
+                new SmitingSwordItem(ModToolMaterial.TANZANITE, 7, 2f, new FabricItemSettings().group(ModItemGroup.TANZANITE).maxCount(1)));
 
 
 
