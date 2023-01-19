@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "testingmod:tanzanite_block",
+    "testingmod:tanzanite_ore",
+    "testingmod:deep_tanzanite_ore",
+    "testingmod:end_tanzanite_ore",
+    "testingmod:nether_tanzanite_ore"
+  ]
+}

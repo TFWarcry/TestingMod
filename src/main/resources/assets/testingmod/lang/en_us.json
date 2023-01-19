@@ -1,15 +1,19 @@
 {
   "item.testingmod.raw_tanzanite": "Raw Tanzanite",
   "item.testingmod.tanzanite": "Tanzanite",
+  "item.testingmod.tanzanite_pickaxe": "Tanzanite Pickaxe",
+  "item.testingmod.eight_ball": "Eight Ball",
 
   "block.testingmod.tanzanite_block": "Block of Tanzanite",
   "block.testingmod.tanzanite_ore": "Tanzanite Ore",
   "block.testingmod.deep_tanzanite_ore": "Deep Tanzanite Ore",
   "block.testingmod.end_tanzanite_ore": "End Tanzanite Ore",
   "block.testingmod.nether_tanzanite_ore": "Nether Tanzanite Ore",
+  "block.testingmod.jumpy_block": "Jumpy Block",
+  "block.testingmod.tanzanite_lamp": "Tanzanite Lamp",
 
 
-  "itemGroup.testingmod.tanzanite" : "Tanzanite Tab"
+  "itemGroup.testingmod.tanzanite" : "Testing Tab"
 
 
 }
